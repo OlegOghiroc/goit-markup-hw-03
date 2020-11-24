@@ -19,6 +19,8 @@ a {
 }
 
 ul {
+  margin: 0%;
+  padding: 0%;
   list-style: none;
 }
 
@@ -73,7 +75,22 @@ ul {
 .section-hero {
   background-color: #2f303a;
 }
+
+/* ==========conteiners========== */
+.company-description_conteiner,
+.section-hero_conteiner,
+.header-conteiner,
+.what-we-do_conteiner,
+.our-team_conteiner {
+  border: 2px solid red;
+  width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .hero {
+  margin: 0%;
+  padding: 0%;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -83,12 +100,16 @@ ul {
   color: #ffffff;
 }
 .order-button {
+  min-width: 136px;
+  padding: 9px 31px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid transparent;
   background-color: var(--accent-color);
-  border: none;
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
@@ -101,7 +122,27 @@ ul {
   background-color: var(--accent-color);
 }
 
+/* ========Title======== */
+.title,
+.text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* company description */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .description-title {
   font-weight: 700;
   font-size: 14px;
@@ -140,7 +181,6 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
