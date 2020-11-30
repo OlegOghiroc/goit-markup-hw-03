@@ -241,11 +241,12 @@ ul {
   display: flex;
   padding-bottom: 94px;
   margin-top: 50px;
+  justify-content: space-between;
 }
 
-.what-we-do_items + .what-we-do_items {
+/* .what-we-do_items + .what-we-do_items {
   margin-left: 30px;
-}
+} */
 
 /* our team title*/
 .what-we-do-title,
@@ -354,22 +355,76 @@ ul {
 }
 
 /* choice section */
+
+.choice-section_conteiner {
+  padding-top: 94px;
+}
+
 .filter-button {
-  background-color: #f5f4fa;
+  padding-top: 6px;
+  padding-right: 22px;
+  padding-bottom: 6px;
+  padding-left: 22px;
   border-style: none;
   border-radius: 4px;
   font-weight: 500;
+
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
 }
+
+.button-list_item + .button-list_item {
+  margin-left: 8px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.options-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: block;
+}
+
+.option-list_items {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.option-list_items:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.option-description {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+
+  background: #ffffff;
+}
+
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 .option-title {
+  display: block;
+  margin-bottom: 4px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
