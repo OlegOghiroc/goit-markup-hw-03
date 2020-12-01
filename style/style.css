@@ -46,6 +46,7 @@ ul {
   display: flex;
 
   list-style: none;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -71,6 +72,7 @@ ul {
   display: flex;
   margin-left: auto;
 
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -138,6 +140,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 
+  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -162,6 +165,7 @@ ul {
   background-color: var(--accent-color);
   border-radius: 4px;
 
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -202,6 +206,7 @@ ul {
 }
 
 .description-title {
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -212,6 +217,7 @@ ul {
   display: block;
   margin-top: 10px;
 
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
@@ -296,6 +302,7 @@ ul {
 }
 
 .person-title {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -303,6 +310,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .profession {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -327,7 +335,7 @@ ul {
 }
 
 .address {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -340,7 +348,7 @@ ul {
   display: block;
   padding-top: 9px;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -369,6 +377,7 @@ ul {
   border-radius: 4px;
   font-weight: 500;
 
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -430,6 +439,7 @@ ul {
   display: block;
   margin-bottom: 4px;
 
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -437,6 +447,7 @@ ul {
   color: var(--primary-text-color);
 }
 .option-text {
+  font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
