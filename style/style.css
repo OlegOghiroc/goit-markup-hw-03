@@ -80,6 +80,10 @@ ul {
   color: var(--secondary-text-color);
 }
 
+.contact-link {
+  display: flex;
+}
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--accent-color);
@@ -88,6 +92,15 @@ ul {
 .site-contact_list + .site-contact_list {
   margin-left: 50px;
 }
+
+.smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+/* .smartphone:hover {
+  fill: var(--accent-color);
+} */
 
 /* Header pozishin */
 .header-conteiner {
